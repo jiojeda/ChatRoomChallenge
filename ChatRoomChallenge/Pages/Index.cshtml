@@ -1,0 +1,43 @@
+﻿@page
+    <div class="container h-50">
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-4">
+                <div class="card h-100">
+                    <div class="card-header" id="userCount">Users Connected 0</div>
+                    <div class="card-body">
+                        <ul id="usersList"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="card h-100">
+                    <div class="card-header" id="userCount">Users Connected 0</div>
+                    <div class="card-body">
+                        <ul id="messagesList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-4">&nbsp;</div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="messageInput" placeholder="message">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="sendButton">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">&nbsp;</div>
+    </div>
+
+    
+
+
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
